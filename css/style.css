@@ -7,17 +7,17 @@
 
 
 .carousel-item img{
-    height: 550px;
+    /* height: 550px; */
     background-color: #ffd572;
     filter: brightness(50%);
     border-radius: 50%;
     border: 2px solid black;
-    height: 100vh;
+    height: 80vh;
     object-fit: cover;  
 }
 
 .carousel-item .slider-img{
-    height: 550px;
+    /* height: 550px; */
     background-color: #ffd572;
     filter: brightness(150%);
     border-radius: 50%;
@@ -35,7 +35,7 @@
 .carousel-caption h1{
     font-size: 70px;
     font-weight: 600;
-    color: white;
+    /* color: white; */
 }
 
 .carousel-caption p{
@@ -76,4 +76,40 @@
 .slider-btn:hover i{
     transition:  0.5s ease-in-out;
     transform: translateX(10px);
+}
+
+.about{
+    margin-top: 100px;
+}
+
+.about .about-btn{
+    background-color: #E25E52;
+    border: none;
+    border-radius: 10px;
+    padding: 0 15px;
+    /* margin-left: 20px; */
+}
+
+.about-btn a{
+    padding: 7px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.about-btn i{
+    margin-top: 12px; 
+    /* margin-left: 5px; */
+}
+
+.about-btn:hover{
+    background-color: #ffb300;
+    transition: background-color 0.5s ease-in-out;
+}
+.about-btn:hover i{
+    transition:  0.5s ease-in-out;
+    transform: translateX(10px);
+}
+
+.about h1, h4, p{
+    text-align: justify;
 }
