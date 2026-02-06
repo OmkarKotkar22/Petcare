@@ -302,3 +302,64 @@
     background-color: #ffb300;
     transition: background-color 0.5s ease-in-out;
 }
+
+.custom-footer
+{
+    background-color: #3a1916;   
+}
+.logo
+{
+    width: 250px;
+    height: 250px;
+}
+.menulist
+{
+
+}
+.menulist li
+{
+    list-style-type: none;
+}
+.menulist li a
+{
+    text-decoration: none;
+    color: #ffb300;
+    position: relative;
+}
+.menulist li a::after
+{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.5s ease;
+    background-color: white;
+}
+.menulist li a:hover::after
+{
+    width: 100%;
+}
+.menulist li a:hover
+{
+    color: white;
+}
+.icons-container 
+{
+    height: 35px;
+    width: 35px;
+    background-color: #ffb300;
+    border: 1px solid #000;
+}
+.icons i
+{
+    color: #3a1916;
+}
+.icons-container:hover
+{
+    background-color: #ffd572;
+}
+.icons i:hover{
+    color: black;
+}
