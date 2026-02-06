@@ -64,32 +64,28 @@ navi {
 }
 /* navbar css ends here */
 
-.contact-bg
-{
-  min-height: 60vh;
+.about-hero .about-hero-img {
+  min-height: 400px;
   width: 100%;
-  
-     background:
-        linear-gradient(
-            to right,
-            rgba(226, 94, 82, 0.26) 0%,
-            rgba(226, 94, 82, 0.32) 30%,
-            rgba(226, 94, 82, 0.38) 60%,
-            rgba(226, 94, 82, 0.44) 100%
-        ),
-        url('../assets/Contact/contact-background.webp');
+  background-image:
+    linear-gradient(
+      to bottom right,
+      rgba(255, 204, 0, 0.392),
+      rgba(255, 204, 0, 0.392)
+    ),
+    url(../assets/About/hero3.webp);
   background-repeat: no-repeat;
-  background-position: center top;
   background-size: cover;
-
-  
-}
-@media (max-width: 768px) {
-    .contact-bg {
-        min-height: 40vh;
-    }
+  background-position: center;
+  filter: brightness(70%);
+  padding: 40px;
+  padding-left: 30%;
+  background-attachment: fixed;
 }
 
+.about-hero-img p {
+  margin-left: 20px;
+}
 
 
 .icons
@@ -131,6 +127,19 @@ navi {
 .footer-nav-list li a:hover::after {
   width: 100%;
 }
+
+/*  */
+.contact-submit.btn {
+    background-color: #E25E52;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.contact-submit.btn:hover {
+    background-color: #ffb300;
+}
+
 
 /* icons */
 .social-icon {
