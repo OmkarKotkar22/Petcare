@@ -7,6 +7,10 @@
     transition: 0.3s;
 }
 
+body{
+    scroll-behavior: smooth;
+}
+
 #top-arrow{
     position: fixed;
     bottom: 30px;

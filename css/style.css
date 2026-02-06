@@ -6,6 +6,7 @@
 
 body{
     background-color: #b7822d;
+    scroll-behavior: smooth;
 }
 
 #top-arrow{
