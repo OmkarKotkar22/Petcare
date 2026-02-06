@@ -87,17 +87,6 @@
   width: 100%;
 }
 
-.navbar-nav .nav-link {
-  color: #ffb300;
-}
-
-.navbar-nav .nav-link:focus,
-.navbar-nav .nav-link:active,
-.navbar-nav .nav-link.active {
-  color: white;
-}
-/* navbar css ends here */
-
 .about-hero .about-hero-img {
   min-height: 400px;
   width: 100%;
@@ -156,7 +145,10 @@
   width: 100%;
 }
 
-/*  */
+.icons-contact i{
+ color: #E25E52;
+}
+
 .contact-submit.btn {
     background-color: #E25E52;
     border: none;
