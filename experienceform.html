@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- linking the external css file -->
-    <link rel="stylesheet" href="./css/testimonial.css">
+    <link rel="stylesheet" href="./css/experienceform.css">
     <!-- fonteawesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
     <!-- bootstrap css cdn -->
@@ -56,7 +56,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="text-center">Share Your Experience</h2>
+                    <h2 class="text-center" style="color: #3a1916;"><i class="fa-solid fa-paw" style="color: #e25e52;"></i>Share Your Experience</h2>
                     <p class="text-center">We’d love to hear your feedback. Fill out the form below and share your
                         experience with us!</p>
                 </div>
@@ -64,34 +64,34 @@
             <div class="row">
                 <div class="col-12 d-flex justify-content-center align-items-center mt-5">
                     <form class="w-100 p-4"
-                        style="max-width: 500px; border: 2px solid #4B281F; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); background-color: #fff;">
-                        <h4 class="mb-4 text-center">Share!</h4>
+                        style="max-width: 500px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); background-color: #fff;">
+                        <h4 class="mb-4 text-center" style="color: #3a1916;">Share!</h4>
                         <div class="mb-3">
-                            <label for="firstName" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="firstName" placeholder="John"
-                                style="border: 1px solid #4B281F;">
+                            <label for="firstName" class="form-label">First Name <span style="color: red;">*</span></label>
+                            <input type="text" class="form-control" id="firstName" placeholder="example John"
+                                style="border: 1px solid #4B281F;" autocomplete="off" required>
                         </div>
                         <div class="mb-3">
-                            <label for="lastName" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="lastName" placeholder="Doe"
-                                style="border: 1px solid #4B281F;">
+                            <label for="lastName" class="form-label">Last Name <span style="color: red;">*</span></label>
+                            <input type="text" class="form-control" id="lastName" placeholder="example Doe"
+                                style="border: 1px solid #4B281F;" autocomplete="off" required>
                         </div>
                         <div class="mb-3">
-                            <label for="email" class="form-label">E-mail</label>
-                            <input type="email" class="form-control" id="email" placeholder="abc@gmail.com"
-                                style="border: 1px solid #4B281F;">
+                            <label for="email" class="form-label">E-mail <span style="color: red;">*</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="example john@gmail.com"
+                                style="border: 1px solid #4B281F;" autocomplete="off" required>
                         </div>
                         <div class="mb-3">
-                            <label for="phone" class="form-label">Phone</label>
-                            <input type="tel" class="form-control" id="phone" placeholder="9090909090"
-                                style="border: 1px solid #4B281F;">
+                            <label for="phone" class="form-label">Phone <span style="color: red;">*</span></label>
+                            <input type="tel" class="form-control" id="phone" placeholder="example 9090909090"
+                                style="border: 1px solid #4B281F;" autocomplete="off" required>
                         </div>
                         <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
+                            <label for="message" class="form-label">Message <span style="color: red;">*</span></label>
                             <textarea class="form-control" id="message" rows="4"
-                                placeholder="Write your message here..." style="border: 1px solid #4B281F;"></textarea>
+                                placeholder="Write your message here..." style="border: 1px solid #4B281F;" autocomplete="off" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                        <button type="submit" class="btn  w-100 contact-submit">Submit</button>
                     </form>
                 </div>
             </div>

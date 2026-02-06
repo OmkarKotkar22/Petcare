@@ -63,7 +63,18 @@
     color: white;
 } */
 
+/*  */
+.contact-submit.btn {
+    background-color: #E25E52;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.5s ease-in-out;
+}
 
+.contact-submit.btn:hover {
+    background-color: #ffb300;
+}
+/*  */
 /* footer css */
 .custom-footer {
   background-color: #b14b41;
