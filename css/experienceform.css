@@ -20,7 +20,7 @@
 .navbar{
     min-height: 70px;
     width: 100%;
-    background-color: black;
+    background-color: #3a1916;
 
 }
 
@@ -77,7 +77,7 @@
 /*  */
 /* footer css */
 .custom-footer {
-  background-color: #b14b41;
+  background-color: #3a1916;
 }
 .footer-nav-list li {
   list-style-type: none;
