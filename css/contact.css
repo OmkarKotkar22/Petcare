@@ -5,7 +5,7 @@
 }
 
 /* navbar css starts here */
-.navi {
+navi {
   position: sticky;
   width: 100%;
   top: 0;
@@ -62,29 +62,98 @@
 .navbar-nav .nav-link.active {
   color: white;
 }
+/* navbar css ends here */
 
-/* navbar css ends her */
-
-/* background image code starts here */
-.background-image {
-  height: 60vh;
-  padding: 0;
-  margin-top: 100px;
-  background-image:
-    linear-gradient(
-      to right,
-      rgba(232, 96, 55, 0.856),
-      rgba(248, 248, 248, 0.4),
-      rgba(248, 248, 248, 0.4)
-    ),
-    url(../assets/Contact/contact-background.webp);
+.contact-bg
+{
+  min-height: 60vh;
+  width: 100%;
+  
+     background:
+        linear-gradient(
+            to right,
+            rgba(226, 94, 82, 0.26) 0%,
+            rgba(226, 94, 82, 0.32) 30%,
+            rgba(226, 94, 82, 0.38) 60%,
+            rgba(226, 94, 82, 0.44) 100%
+        ),
+        url('../assets/Contact/contact-background.webp');
   background-repeat: no-repeat;
-  /* background-size: 100% 100%; */
+  background-position: center top;
   background-size: cover;
-  background-position: center;
-  /* background-attachment: fixed; */
-  filter: brightness(70%);
+
+  
+}
+@media (max-width: 768px) {
+    .contact-bg {
+        min-height: 40vh;
+    }
 }
 
 
-/* contact cards code starts here */
+
+/* ========= */
+.icons
+{
+  background-color:#E25E52;
+}
+/* Border only on large screens */
+@media (max-width: 991px) {
+    .border-lg-end {
+        border-right: 0 !important;
+    }
+}
+
+
+
+/* footer csss */
+.custom-footer {
+  background-color: #b14b41;
+}
+.footer-nav-list li {
+  list-style-type: none;
+}
+.footer-nav-list li a {
+  text-decoration: none;
+  color: #ffb300;
+  position: relative;
+  padding-bottom: 4px;
+}
+.footer-nav-list li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  transition: width 0.3s;
+  background-color: white;
+}
+.footer-nav-list li a:hover {
+  color: white;
+}
+.footer-nav-list li a:hover::after {
+  width: 100%;
+}
+
+/* icons */
+.social-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffb300;
+  color: #b14b41;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #f4a261;
+  color: #000;
+}
+

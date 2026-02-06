@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-    <!-- linking the external css file -->
+    <title>PetCare</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <!-- link external css -->
     <link rel="stylesheet" href="./css/contact.css">
-
-    <!-- fonteawesome cdn link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
-
-    <!-- bootstrap online cdn link of css -->
+    <!-- bootstrap css cdn -->
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
 </head>
 
 <body>
@@ -50,67 +50,195 @@
     </header>
     <!-- navbar code ends here -->
 
-    <!-- background image starts here -->
-    <section class="mb-5">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 background-image d-flex justify-content-center align-items-center">
+    <!-- hero section -->
+    <section class="contact-hero">
+        <div class="container-fluid p-0">
+            <div class="row m-0">
+                <div class="col-12 contact-bg d-flex align-items-center justify-content-center">
                     <h1 class="text-white">Contact Us</h1>
                 </div>
             </div>
         </div>
     </section>
-    <!-- background image ends here -->
 
-    <!-- contact cards code starts here -->
-    <section class="mb-5 m-0 p-0">
-        <div class="container-fluid m-0 p-0">
-            <div class="row m-0 g-lg-4">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card  h-100 d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-mobile-screen fs-1 mt-2"></i>
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Contact Us</h5>
-                            <p class="card-text text-center">+91 9090909090 <br> +91 8080808080</p>
+    <!-- contact cards section -->
+    <section class="contact-card mt-5">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
 
-                        </div>
+                <!-- Contact -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 
+                        d-flex flex-column flex-md-row 
+                        align-items-center gap-3 
+                        border-lg-end border-dark text-center text-md-start">
+                    <div class="icons border p-2 fs-3 rounded-circle">
+                        <i class="fa-solid fa-phone text-white"></i>
+                    </div>
+                    <div class="icons-content">
+                        <h5 class="mb-2">Contact Us</h5>
+                        <p class="mb-0">+91 1010101010</p>
+                        <p class="mb-0">+91 3333333333</p>
                     </div>
                 </div>
-                <div class="col-12  col-md-6 col-lg-3">
-                    <div class="card h-100  d-flex justify-content-center align-items-center">
-                        <i class="fa-regular fa-envelope fs-1 mt-2"></i>
-                        <div class="card-body">
-                            <h5 class="card-title text-center">E-mail us at</h5>
-                            <p class="card-text text-center">petcare@gmail.com <br> petcaresupport@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card h-100 justify-content-center align-items-center">
-                        <i class="fa-solid fa-globe fs-1 mt-2"></i>
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Location</h5>
-                            <p class="card-text text-center">Building No.25, J.M. Road, Pune</p>
 
-                        </div>
+                <!-- Email -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 
+                        d-flex flex-column flex-md-row 
+                        align-items-center gap-3 
+                        border-lg-end border-dark text-center text-md-start">
+                    <div class="icons border p-2 fs-3 rounded-circle">
+                        <i class="fa-solid fa-envelope text-white"></i>
+                    </div>
+                    <div class="icons-content">
+                        <h5 class="mb-2">Email Address</h5>
+                        <p class="mb-0">petcare@support.com</p>
+                        <p class="mb-0">supportpet@gmail.com</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card  h-100 d-flex justify-content-center align-items-center">
-                        <i class="fa-regular fa-clock fs-1 mt-2"></i>
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Working Hours</h5>
-                            <p class="card-text text-center">8:00 a.m. to 6:00p.m. <br> Sunday Closed</p>
-                            
-                        </div>
+
+                <!-- Location -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 
+                        d-flex flex-column flex-md-row 
+                        align-items-center gap-3 
+                        border-lg-end border-dark text-center text-md-start">
+                    <div class="icons border p-2 fs-3 rounded-circle">
+                        <i class="fa-solid fa-globe text-white"></i>
                     </div>
+                    <div class="icons-content">
+                        <h5 class="mb-2">Our Locations</h5>
+                        <p class="mb-0">Shop No. 71/72, J.M. Road</p>
+                        <p class="mb-0">Pune, Maharashtra</p>
+                    </div>
+                </div>
+
+                <!-- Hours -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 
+                        d-flex flex-column flex-md-row 
+                        align-items-center gap-3 text-center text-md-start">
+                    <div class="icons border p-2 fs-3 rounded-circle">
+                        <i class="fa-solid fa-clock text-white"></i>
+                    </div>
+                    <div class="icons-content">
+                        <h5 class="mb-2">Working Hours</h5>
+                        <p class="mb-0">Mon–Sat : 9:00 AM – 6:00 PM</p>
+                        <p class="mb-0">Sunday Closed</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="form mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex align-items-center">
+                    <form class="w-100 p-4">
+
+                        <!-- Headings -->
+                        <h5 class="text-uppercase mb-2" style="color: #E25E52;"> <span><i
+                                    class="fa-solid fa-bone"></i></span>Contact Us</h5>
+                        <h1 class="mb-4" style="color: #E25E52;">Get in touch <br> for quality
+                            veterinary pet care</h1>
+
+                        <!-- First & Last Name -->
+                        <div class="row mb-3">
+                            <div class="col-12 col-md-6 mb-3 mb-md-0">
+                                <input type="text" class="form-control" placeholder="First Name">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+
+                        <!-- Phone & Email -->
+                        <div class="row mb-3">
+                            <div class="col-12 col-md-6 mb-3 mb-md-0">
+                                <input type="tel" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <input type="email" class="form-control" placeholder="Email Address">
+                            </div>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="mb-4">
+                            <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+
+                        <!-- Button -->
+                        <button type="submit" class="btn btn-dark px-4"
+                            style="background-color: #E25E52; border: none;">
+                            Submit
+                        </button>
+
+                    </form>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121059.04711156077!2d73.78056543154419!3d18.524598599502376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1770316248577!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
     </section>
-    <!-- contact cards code ends here -->
-    <!--bootstrap cdn for the javascript  -->
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- footer code -->
+    <footer class="custom-footer mt-5">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-12">
+                    <ul
+                        class="footer-nav-list h-100 d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-md-5">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="testimonial.html">Testimonial</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12">
+                    <hr style="background-color: black; height: 2px; width: 100%;" class="mt-5 mt-md-3">
+                </div>
+
+                <div class="col-12 col-md-8 offset-md-2">
+                    <p class="text-center" style="color: #ffb300;">PetCare provides trusted veterinary care, grooming,
+                        nutrition
+                        guidance, and adoption support. We
+                        are committed to keeping your pets healthy, happy, and safe with compassionate service, expert
+                        professionals, and love-driven care every day.</p>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center align-items-center gap-3">
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+
+                <div class="col-12 mt-3">
+                    <p class="text-center" style="color: #ffb300;">&copy; 2026 Copyright : petcare.com</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- js bootstrap cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
