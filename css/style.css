@@ -8,6 +8,40 @@ body{
     background-color: #b7822d;
 }
 
+#top-arrow{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 999;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#top-arrow a{
+    text-decoration: none;
+    color: black;
+}
+
+#top-arrow a:hover{
+    padding: 5px 15px;
+    border-radius: 50%;
+    background-color: #3a1916;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px orangered;
+    transition: 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
 .navi {
     position: sticky;
     width: 100%;
