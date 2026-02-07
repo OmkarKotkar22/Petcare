@@ -111,7 +111,7 @@ body{
 .about .row{
     padding: 0;
     /* margin-top: 0px; */
-    background-image: linear-gradient(to right, rgba(232, 96, 55, 0.856), rgba(248, 248, 248, 0.4), rgba(248, 248, 248, 0.4)), url(../assets/Home/back-img.jpg);
+    background-image:  linear-gradient(to right, #ffe2b4a8, #ffe2b4a8), url(../assets/Home/back-img.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;

@@ -105,7 +105,7 @@ body{
 
 .carousel-item img{
     width: 100%;
-    height: 85vh;
+    height: 90vh;
     background-color: #ffd572;
     filter: brightness(50%);
     /* border-radius: 50%; */
@@ -114,7 +114,7 @@ body{
 }
 
 .carousel-item .slider-img{
-    height: 85vh;
+    height: 90vh;
     background-color: #ffd572;
     filter: brightness(150%);
     /* border-radius: 50%; */
@@ -177,7 +177,7 @@ body{
 .about .row{
     padding: 0;
     /* margin-top: 0px; */
-    background-image: linear-gradient(to right, rgba(232, 96, 55, 0.856), rgba(248, 248, 248, 0.4), rgba(248, 248, 248, 0.4)), url(../assets/Home/back-img.jpg);
+    background-image: linear-gradient(to right, #ffe2b4a8, #ffe2b4a8), url(../assets/Home/back-img.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -249,7 +249,7 @@ body{
 
 .service-info{
     min-height:350px;
-    background-image:linear-gradient(to bottom right, rgba(255, 204, 0, 0.856), rgba(248, 248, 248, 0.024),  rgba(248, 248, 248, 0.024), rgba(248, 248, 248, 0.024)),linear-gradient(to top left , rgba(255, 200, 0, 0.774), rgba(248, 248, 248, 0.024),  rgba(248, 248, 248, 0.024), rgba(248, 248, 248, 0.024)), url(../assets/Home/info-img.png);
+    background-image:linear-gradient(to bottom right, #ffe2b4a8, #ffe2b4a8), url(../assets/Home/info-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -260,12 +260,12 @@ body{
 
 
 .service-info h3 {
-    color: orangered;
+    color: #3a1916;
     margin-bottom: 15px;
 }
 
 .service-info p {
-    color: white;
+    color: rgb(57, 56, 56);
     font-size: 1rem;
 }
 
@@ -325,7 +325,7 @@ body{
 .choose .choose-us{
     padding: 0;
     /* margin-top: 100px; */
-    background-image: linear-gradient(to left, rgba(232, 96, 55, 0.856), rgba(248, 248, 248, 0.4)), url(../assets/Home/back-img.jpg);
+    background-image: linear-gradient(to left, #ffe2b4a8, #ffe2b4a8), url(../assets/Home/back-img.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
